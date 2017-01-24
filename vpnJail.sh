@@ -13,7 +13,7 @@ if [ ! -f "$1" ]; then #Check to make sure it's a legit file
 fi
 
 if [ "$EUID" -ne 0 ] #Check if root
-  then echo "Please run as root e.g. Sudo ./vpnjail.sh"
+  then echo "Please run as root e.g. :  sudo ./vpnjail.sh"
   exit
 fi
 
